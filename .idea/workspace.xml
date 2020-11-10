@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ac10238-5f09-426b-8231-0325932b65a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/DistrictMostTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opstty/writable/DistrictNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/mapper/Mapper7_1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/opstty/reducer/Reducer7_1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictOldestTreeTest/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictOldestTreeTest/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictOldestTreeTest/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictOldestTreeTest/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictOldestTreeTest/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictOldestTreeTest/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictOldestTreeTest/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictOldestTreeTest/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictsTrees/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictsTrees/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictsTrees/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictsTrees/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictsTrees/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictsTrees/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DistrictsTrees/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/DistrictsTrees/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ExistingSpecies/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/ExistingSpecies/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ExistingSpecies/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/ExistingSpecies/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ExistingSpecies/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/ExistingSpecies/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ExistingSpecies/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/ExistingSpecies/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/MaxHeightPerSpecieOfTreeOK/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/MaxHeightPerSpecieOfTreeOK/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/MaxHeightPerSpecieOfTreeOK/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/MaxHeightPerSpecieOfTreeOK/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/MaxHeightPerSpecieOfTreeOK/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/MaxHeightPerSpecieOfTreeOK/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/MaxHeightPerSpecieOfTreeOK/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/MaxHeightPerSpecieOfTreeOK/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTrees/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTrees/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTrees/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTrees/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTrees/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTrees/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTrees/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTrees/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTreesAlmost/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTreesAlmost/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTreesAlmost/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTreesAlmost/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTreesAlmost/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTreesAlmost/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/SortTreesAlmost/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/SortTreesAlmost/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpecies/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpecies/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpecies/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpecies/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpecies/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpecies/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpecies/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpecies/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpeciesTrue/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpeciesTrue/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpeciesTrue/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpeciesTrue/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpeciesTrue/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpeciesTrue/_SUCCESS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TreesBySpeciesTrue/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output2/TreesBySpeciesTrue/part-r-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/AppDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/AppDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/DistrictOldestTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/DistrictOldestTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/DistrictsTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/DistrictsTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/ExistingSpecies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/ExistingSpecies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/MaxHeightPerSpecieOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/MaxHeightPerSpecieOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/SortTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/SortTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/job/TreesBySpecies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/job/TreesBySpecies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/mapper/Mapper6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/reducer/Reducer6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opstty/writable/AgeDistrict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opstty/writable/AgeDistrict.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jUuZNW9r95KI0yZLj6rPl3GAUG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.opstty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Mapper4Test">
+    <configuration name="DistrictMostTree" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.DistrictMostTree" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/DistrictMostTree/Phase1 output/DistrictMostTree/Phase2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistrictOldestTree" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.DistrictOldestTree" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/DistrictOldestTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistrictsTrees" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.DistrictsTrees" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/DistrictsTrees" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExistingSpecies" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.ExistingSpecies" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/ExistingSpecies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxHeightPerSpecie" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.MaxHeightPerSpecieOfTree" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/MaxHeightPerSpecieOfTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort trees by height" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.SortTrees" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/SortTrees" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreesBySpecies" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.opstty.job.TreesBySpecies" />
+      <module name="hadoop-examples-mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/data output/TreesBySpecies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapper4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-examples-mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opstty.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opstty.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.opstty.mapper.Mapper4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapper5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-examples-mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opstty.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opstty.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.opstty.mapper.Mapper5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapper6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-examples-mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opstty.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opstty.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.opstty.mapper.Mapper6Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapper7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-examples-mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opstty.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opstty.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.opstty.mapper.Mapper7Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapper7_1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-examples-mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opstty.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opstty.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.opstty.mapper.Mapper7_1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DistrictsTrees" />
+      <item itemvalue="Application.ExistingSpecies" />
+      <item itemvalue="Application.TreesBySpecies" />
+      <item itemvalue="Application.MaxHeightPerSpecie" />
+      <item itemvalue="Application.Sort trees by height" />
+      <item itemvalue="Application.DistrictOldestTree" />
+      <item itemvalue="Application.DistrictMostTree" />
+      <item itemvalue="JUnit.Mapper7Test" />
+      <item itemvalue="JUnit.Mapper7_1Test" />
+      <item itemvalue="JUnit.Mapper6Test" />
+      <item itemvalue="JUnit.Mapper5Test" />
+      <item itemvalue="JUnit.Mapper4Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Mapper4Test" />
+        <item itemvalue="JUnit.Mapper5Test" />
+        <item itemvalue="JUnit.Mapper7Test" />
+        <item itemvalue="JUnit.Mapper6Test" />
+        <item itemvalue="JUnit.Mapper7_1Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ac10238-5f09-426b-8231-0325932b65a2" name="Default Changelist" comment="" />
+      <created>1603871047347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603871047347</updated>
+      <workItem from="1603871060177" duration="1370000" />
+      <workItem from="1604178380559" duration="155000" />
+      <workItem from="1604336152550" duration="6916000" />
+      <workItem from="1604411999559" duration="11689000" />
+      <workItem from="1604424148610" duration="519000" />
+      <workItem from="1604439437298" duration="20603000" />
+      <workItem from="1604488543141" duration="6189000" />
+      <workItem from="1604688766265" duration="9275000" />
+      <workItem from="1604706733483" duration="397000" />
+      <workItem from="1604749791760" duration="5125000" />
+      <workItem from="1604766299909" duration="4321000" />
+      <workItem from="1604771606805" duration="30457000" />
+      <workItem from="1604855374831" duration="3327000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit exos Big Data Frameworks">
+      <created>1604419279726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604419279726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit exos Big Data Frameworks">
+      <created>1604495652826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604495652826</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit exos Big Data Frameworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit exos Big Data Frameworks" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1679" y="-61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604858706017">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1679" y="-61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604858706017" />
+    <state x="179" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604706811396" />
+    <state x="179" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604355794868" />
+    <state x="1679" y="-41" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604768417585" />
+    <state x="179" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604484642526" />
+    <state x="204" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604442720005" />
+    <state x="1540" y="-80" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604853768571">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1540" y="-80" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604853768571" />
+    <state x="1540" y="-80" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604853341363" />
+    <state x="1540" y="-80" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.823/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604844270711" />
+    <state x="502" y="163" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604355718645">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="502" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604355718645" />
+    <state x="2151" y="-15" key="#com.intellij.ide.util.MemberChooser" timestamp="1604854109386">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2151" y="-15" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604854109386" />
+    <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1604703998615" />
+    <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604447386662" />
+    <state x="2043" y="107" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604780254269">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2043" y="107" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604780254269" />
+    <state x="452" y="242" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604706804237" />
+    <state x="452" y="243" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604355409394" />
+    <state x="452" y="243" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604484635161" />
+    <state x="2138" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604839875193">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604839875193" />
+    <state x="274" y="33" key="#hadoop-examples-mapreduce_[package]" timestamp="1603871391668">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="274" y="33" key="#hadoop-examples-mapreduce_[package]/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1603871391668" />
+    <state x="109" y="41" key="CommitChangelistDialog2" timestamp="1604495652271">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="109" y="41" key="CommitChangelistDialog2/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604419279359" />
+    <state x="109" y="41" key="CommitChangelistDialog2/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604495652271" />
+    <state width="464" height="466" key="DebuggerActiveHint" timestamp="1604852273137">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="464" height="466" key="DebuggerActiveHint/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604852273137" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1604860914201">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604860914201" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604693431766" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604841744633" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604853678343" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1604707133434" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604356777039" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.825/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604768565130" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1604706160465" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604495035838" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.826/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604779656854" />
+    <state width="699" height="181" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604496762702" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.-157.1920.1057@0.23.1440.828" timestamp="1604496975648" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604834467082" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1604860914199">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604860914199" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604693431761" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604841744632" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.823/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604853678334" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1604707133433" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604356777037" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.825/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604768565129" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1604706160465" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604495035837" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.826/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604779656845" />
+    <state width="699" height="181" key="GridCell.Tab.0.center/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604496762701" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.828/1440.-157.1920.1057@0.23.1440.828" timestamp="1604496975647" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604834467080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1604860914196">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604860914196" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604693431761" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604841744631" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.823/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604853678332" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1604707133433" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604356777036" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.825/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604768565128" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1604706160464" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604495035830" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.826/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604779656840" />
+    <state width="699" height="181" key="GridCell.Tab.0.left/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604496762700" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.828/1440.-157.1920.1057@0.23.1440.828" timestamp="1604496975646" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604834467079" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1604860914200">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604860914200" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604693431765" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604841744633" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.823/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604853678335" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1604707133433" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604356777038" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.825/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604768565130" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1604706160465" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604495035837" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.826/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604779656847" />
+    <state width="699" height="181" key="GridCell.Tab.0.right/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604496762701" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.828/1440.-157.1920.1057@0.23.1440.828" timestamp="1604496975647" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604834467081" />
+    <state width="1878" height="373" key="GridCell.Tab.1.bottom" timestamp="1604854915258">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="373" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604854915258" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604488208748" />
+    <state width="1398" height="265" key="GridCell.Tab.1.bottom/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604443607584" />
+    <state width="1878" height="373" key="GridCell.Tab.1.center" timestamp="1604854915257">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="373" key="GridCell.Tab.1.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604854915257" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604488208747" />
+    <state width="1398" height="265" key="GridCell.Tab.1.center/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604443607583" />
+    <state width="1878" height="373" key="GridCell.Tab.1.left" timestamp="1604854915256">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="373" key="GridCell.Tab.1.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604854915256" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604488208747" />
+    <state width="1398" height="265" key="GridCell.Tab.1.left/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604443607583" />
+    <state width="1878" height="373" key="GridCell.Tab.1.right" timestamp="1604854915258">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="373" key="GridCell.Tab.1.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604854915258" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604488208747" />
+    <state width="1398" height="265" key="GridCell.Tab.1.right/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604443607584" />
+    <state x="229" y="75" key="SettingsEditor" timestamp="1604496398860">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="229" y="75" key="SettingsEditor/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604496398860" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1604418820601">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604418820601" />
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2" timestamp="1604419289136">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="320" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604419289136" />
+    <state x="1975" y="79" key="com.intellij.ide.util.TipDialog" timestamp="1604855374254">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1975" y="79" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1604855374254" />
+    <state x="401" y="220" key="com.intellij.ide.util.TipDialog/0.23.1440.823/1440.-157.1920.1057@0.23.1440.823" timestamp="1604766349702" />
+    <state x="1975" y="96" key="com.intellij.ide.util.TipDialog/0.23.1440.823/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604771642321" />
+    <state x="376" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.825/1440.-157.1920.1057@0.23.1440.825" timestamp="1604336166036" />
+    <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.826/1440.-157.1920.1057@0.23.1440.826" timestamp="1604488543660" />
+    <state x="376" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.827/1440.-157.1920.1057@0.23.1440.827" timestamp="1604441228030" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hadoop_examples_mapreduce$Mapper6Test_testMap.ic" NAME="Mapper6Test.testMap Coverage Results" MODIFIED="1604852483377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.opstty.mapper.*</FILTER>
+    </SUITE>
+  </component>
+</project>
